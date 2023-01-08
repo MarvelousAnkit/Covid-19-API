@@ -1,0 +1,135 @@
+ /* .container{
+    margin: 50px;
+    padding: 20px;
+    
+    
+}
+*{
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+.world-t td, .world-t th{
+    padding: 12px , 20px;
+    border: 1px solid #ddd;
+    text-align: center ;
+    font-size: 16px;
+    height: 20px;
+    width: 300px;
+}
+
+.world-t{
+    height: 200px;
+    overflow: scroll;
+}
+.heading{
+    text-align: center;
+}
+
+.world-t tr {
+    padding: 120px;
+}
+
+.world-t th{
+    background-color: darkblue;
+    color: #ffffff 
+}
+.world-t tbody tr:nth-child(even){
+    background-color: #f5f5f5;
+   
+}  */
+ 
+
+
+.tableFixHead {
+    width: 90vw;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+    .tableFixHead tbody {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 90vh;
+  }
+  .tableFixHead thead tr {
+    display: block;
+  }
+  .tableFixHead th,
+  .tableFixHead  td {
+    padding: 5px 10px;
+    width: 200px;
+    
+    
+  }
+ 
+  .tableFixHead th{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    text-align: center;
+    height: 50px;
+  }
+
+  .tableFixHead  td{
+    border: 1px solid black;
+  }
+  .con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .h11{text-align: center;
+padding-bottom: 20px;}
+
+  .tableFixHead tbody tr:nth-child(even){
+    background-color: #f5f5f5;
+  }
+
+  @media (max-width: 500px) {
+    .tableFixHead thead{
+        display: none;
+
+    }
+    
+
+    .tableFixHead, .tableFixHead tbody, .tableFixHead tr, .tableFixHead td{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tableFixHead td{
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+    }
+    .tableFixHead td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        padding-left: 50px;
+        font-size: 15px;
+        width: 50%;
+        text-align: left;
+    }
+    .h11{text-align: center;
+      padding-bottom: 10px;}
+      .container-fluid{
+        width: 85vw;
+        table-layout: fixed;
+        display: block;
+        height: fit-content;
+        overflow: hidden;
+        border-collapse: collapse;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 40px;
+      }
+
+      
+
+      
+      
+      
+    
+} 
