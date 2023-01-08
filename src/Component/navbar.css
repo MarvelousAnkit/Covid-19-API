@@ -1,0 +1,86 @@
+
+.navstyles_{
+    font-size: large;
+    background-color: #0a0a0a;
+    
+}
+
+.covid:hover{
+color: white;
+}
+.covid::active{color: white;}
+.covid:focus{color: white;}
+.home:hover{
+color: white;
+}
+.covid::-ms-ticks-after{color: white;}
+.covid{color: white;}
+
+button:hover{
+color: white;
+}
+.hellos{
+
+background-color: White;
+color: white;
+padding: 6px;
+font-size: 16px;
+border: none;
+
+}
+
+.navstyles_ a {
+    color: white;
+}
+.main_header{
+    height: 500px;
+    width: 100%;
+}
+.img2{
+    height: 60px;
+}
+.rightside h1{
+    font-size: 3rem;
+}
+.corona img{
+    animation: gocorona 3s linear infinite;
+    
+    
+}
+.img1{
+    height: 400px;
+}
+@keyframes gocorona{
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+    
+}
+.leftside img{animation: together 5s linear infinite; }
+
+@keyframes together {
+    0%{
+        transform: scale(0.75);
+    }
+    20%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(0.75);
+    }
+    60%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(0.75);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+    
+}
