@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Covid-19-API/static/css/main.c244d1e1.css",
+    "main.js": "/Covid-19-API/static/js/main.7755f035.js",
+    "static/media/corona.png": "/Covid-19-API/static/media/corona.b27b7e7c129241d9d35f.png",
+    "static/media/eksath.png": "/Covid-19-API/static/media/eksath.e0059536c395299e8cfc.png",
+    "index.html": "/Covid-19-API/index.html",
+    "main.c244d1e1.css.map": "/Covid-19-API/static/css/main.c244d1e1.css.map",
+    "main.7755f035.js.map": "/Covid-19-API/static/js/main.7755f035.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c244d1e1.css",
+    "static/js/main.7755f035.js"
+  ]
+}
